@@ -3,12 +3,12 @@ import './App.css';
 import Alert from './components/Alert/Alert';
 import Navbar from './components/Navbar/Navbar';
 import Textbox from './components/Textbox/Textbox';
-// import About from './components/About/About';
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Routes
-// } from "react-router-dom";
+import About from './components/About/About';
+import {
+  HashRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -52,15 +52,15 @@ function App() {
 
   return (
     <>
-      {/* <Router> */}
+      <Router>
         <Navbar title="Wordie" link1="Home" link2="Blog" link3="About" link4="Contact" btn="Join us" mode={darkMode} toggleMode={toggle} />
         <Alert alert={alert} />
-        <Textbox heading='Enter the text to analyze below' mode={darkMode} alert={showAlert} />
-        {/* <Routes>
+        {/* <Textbox heading='Enter the text to analyze below' mode={darkMode} alert={showAlert} /> */}
+        <Routes>
           <Route exact path="/about" element={<About mode={darkMode} />} />
           <Route exact path="/" element={<Textbox heading='Enter the text to analyze below' mode={darkMode} alert={showAlert} />} />
-        </Routes> */}
-      {/* </Router> */}
+        </Routes>
+      </Router>
     </>
   );
 }
