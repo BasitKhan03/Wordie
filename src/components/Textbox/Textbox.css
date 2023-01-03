@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.textbox{
+    margin-top: 50px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+}
+
+.box{
+    margin: auto;
+}
+
+.textbox-Heading{
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+textarea{
+    resize: none;
+    outline: none;
+    border: 1px solid rgba(132, 132, 132, 0.7);
+    padding: 15px 16px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4em;
+    margin-top: 8px;
+}
+
+textarea:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 4px #719ECE;
+}
+
+.Btn{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #0d6efd;
+    padding: 4px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 15px;
+}
+
+.Btn:hover{
+    background-color: rgb(75, 78, 198);
+    box-shadow: 0 0 4px rgb(83, 85, 227);
+}
+
+.lBtn, .resBtn, .tBtn{
+    margin-left: 8px;
+}
+
+.clrBtn{
+    float: right;
+    background-color: #a82009;
+    margin-top: 10px;
+}
+
+.clrBtn:hover{
+    background-color: #961d08;
+    box-shadow: none;
+}
+
+.volBtn{
+    float: right;
+    margin: 10px;
+}
+
+.cpBtn{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.volBtn:hover,.cpBtn:hover{
+    box-shadow: none;
+}
+
+.icon{
+    position: relative;
+    top: 3px;
+}
+
+.clrIcon{
+    font-size: 14px;
+    top: 2px;
+}
+
+.clipIcon{
+    font-size: 15px;
+}
+
+.summary{
+    margin-top: 45px;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+/* #----| Dark Mode |----# */
+
+.textStyle {
+    color: white;
+}
+
+.btnStyle1 {
+    background-color: rgb(96, 98, 225);
+    color: white;
+}
+
+.btnStyle1:hover {
+    background-color: rgb(83, 85, 214);
+}
+
+.btnStyle2 {
+    background-color: #c7290e;
+    color: white;
+}
+
+.btnStyle2:hover {
+    background-color: #b4270e;
+}
+
+.textboxStyle {
+    color: #F2F2F2;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(76, 76, 76, 0.7);   
+}
+
+.textboxStyle::placeholder {
+    color: #d0d0d0 !important;
+}
+
+.textboxStyle:focus { 
+    outline: none !important;
+    border-color: #6993bf !important;
+    box-shadow: 0 0 1px #6995c3 !important;
+}

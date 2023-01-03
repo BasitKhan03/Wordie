@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar {
+    height: 74px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 10%;
+    background-color: #edf0f1;
+    transition: all 0.6s;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    /* backdrop-filter: blur(30px) saturate(160%) contrast(45%) brightness(140%); */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logoHeading {
+    font-family: 'El Messiri', sans-serif;
+    display: inline;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: -12px;
+    position: relative;
+    top: 2px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li,
+a,
+button {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.headerBtn {
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(48, 50, 180);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-right: -60px;
+    position: relative;
+    top: -6px;
+}
+
+.headerBtn:hover {
+    background-color: rgba(32, 35, 188, 0.9);
+}
+
+.nav-links a {
+    color: rgb(41, 41, 41);
+    position: relative;
+    top: 8px;
+}
+
+.menu {
+    display: flex;
+    gap: 0.45em;
+}
+
+.menu li a:hover,
+.menu li a.active {
+    color: #150130;
+    text-decoration: underline;
+}
+
+.menu li {
+    padding: 5px 12px;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    width: 50px;
+    height: 25px;
+    background-color: rgb(200, 199, 199);
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 7px;
+    position: relative;
+    top: 7px;
+    left: 70px;
+    transform: scale(1.01);
+}
+
+.ball {
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    position: absolute;
+    top: 3.5px;
+    left: 4px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+.checkbox:checked+.label .ball {
+    transform: translateX(25px);
+}
+
+.fa-moon {
+    color: rgb(255, 192, 203);
+}
+  
+.fa-sun {
+    color: rgb(255, 255, 0);
+    font-size: 14px;
+}
+
+/* #----| Dark Mode |----# */
+
+.navStyle {
+    background-color: black !important;
+    color: white !important;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.7) !important;
+}
+
+.linkStyle {
+    color: white !important;
+}
+
+.btnStyle {
+    background-color: rgb(80, 82, 197) !important;
+    color: white !important;
+}
+
+.btnStyle:hover {
+    background-color: rgb(74, 76, 186) !important;
+}
+
+.toggleStyle{
+    background-color: rgb(37, 36, 36) !important;
+}

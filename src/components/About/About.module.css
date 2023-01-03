@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* #about{
+    height: calc(100vh - 74px) !important;
+    width: 100vw;
+} */
+
+p{
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.mainText{
+    color: black;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 29px;
+    line-height: 56px;
+    padding-top: 55px;
+}
+
+.subText{
+    color: black;
+    font-family: "Raleway", sans-serif;
+    position: relative;
+    margin: 20px 130px;
+    margin-bottom: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.subText2{
+    margin-top: -20px;
+}
+
+.Btn{
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(83, 85, 207);
+    padding: 4px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+    margin: 0 128px;
+}
+
+.Btn:hover{
+    background-color: rgb(62, 64, 186);
+    box-shadow: 0 0 4px rgb(83, 85, 227);
+}
+
+.row2{
+    margin-top: -8px;
+}
+
+/* #----| Dark Mode |----# */
+
+.bgDarkMode{
+    background-color: #121212;
+}
+
+.textDarkMode{
+    color: #F2F2F2;
+}
+
+.headingDarkMode{
+    color: white;
+}
+
+.btnDarkMode{
+    background-color: rgb(96, 98, 225);
+    color: #F2F2F2;
+}
