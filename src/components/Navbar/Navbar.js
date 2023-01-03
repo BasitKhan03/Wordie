@@ -22,11 +22,11 @@ function Navbar(props) {
     }
 
     const handleHome = ()=>{
-        document.title = 'Wordie | Home';
+        document.title = 'Home | Wordie';
     }
 
     const handleAbout = ()=>{
-        document.title = 'Wordie | About';
+        document.title = 'About | Wordie';
     }
 
     return (

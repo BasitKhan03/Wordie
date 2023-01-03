@@ -31,7 +31,7 @@ function App() {
       document.body.style.backgroundColor = '#121212';
       document.body.style.transition = 'all 0.2s linear';
       showAlert("Dark mode has been enabled!", "success");
-      // document.title = 'Wordie | Home (Dark)';
+      // document.title = 'Home (Dark) | Wordie';
 
       // setInterval(() => {
       //   document.title = 'Install Wordie Now';
@@ -46,7 +46,7 @@ function App() {
       document.body.style.backgroundColor = 'white';
       document.body.style.transition = 'all 0.2s linear';
       showAlert("Light mode has been enabled!", "success");
-      // document.title = 'Wordie | Home (Light)';
+      // document.title = 'Home (Light) | Wordie';
     }
   }
 
