@@ -9,7 +9,7 @@
 .alert {
     --bs-alert-bg: transparent;
     --bs-alert-padding-x: 2.2rem;
-    --bs-alert-padding-y: 0.9rem;
+    --bs-alert-padding-y: 0.8rem;
     --bs-alert-margin-bottom: 1rem;
     --bs-alert-color: inherit;
     --bs-alert-border-color: transparent;

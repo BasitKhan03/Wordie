@@ -135,6 +135,16 @@ button {
     transform: translateX(25px);
 }
 
+input[type=checkbox] {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
 .fa-moon {
     color: rgb(255, 192, 203);
 }
@@ -165,6 +175,94 @@ button {
     background-color: rgb(74, 76, 186) !important;
 }
 
-.toggleStyle{
+.toggleStyle {
     background-color: rgb(37, 36, 36) !important;
+}
+
+input[type=checkbox]:checked~.menuStyle {
+    background-color: rgb(37, 36, 36);
+}
+
+/* #----| Responsive Design |----# */
+
+@media only screen and (max-width: 690px) {
+    .logoHeading {
+        font-size: 29px;
+    }
+
+    .menu li a {
+        font-size: 16px;
+    }
+
+    .headerBtn {
+        font-size: 14px;
+    }
+
+    .menu {
+        gap: 0.30em;
+    }
+
+    .mode {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .navbar {
+        border: none;
+        box-shadow: 0px 2px 15px rgba(113, 113, 113, 0.4);
+    }
+
+    .logoHeading {
+        font-size: 29px;
+        margin-left: 2px;
+    }
+
+    .menu {
+        margin-top: 22px;
+        display: none;
+        position: absolute;
+        background-color: #edf0f1;
+        color: black;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+        height: 89vh;
+        z-index: -20;
+    }
+
+    .headerBtn {
+        position: relative;
+        top: 0px;
+        left: -29px;
+        font-size: 16px;
+    }
+
+    .menu li a {
+        font-size: 18px;
+    }
+
+    .menu li:hover,
+    .menu li a.active {
+        color: #0a5163;
+        text-decoration: underline;
+    }
+
+    .menu li+li {
+        margin-top: 20px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 23px;
+    }
+
+    .label {
+        margin: auto;
+    }
 }

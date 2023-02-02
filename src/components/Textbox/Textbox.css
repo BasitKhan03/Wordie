@@ -8,7 +8,7 @@
 }
 
 .textbox{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .container{
@@ -24,6 +24,11 @@
     font-family: 'El Messiri', sans-serif;
     font-weight: 500;
     font-size: 25px;
+}
+
+.headingDiv{
+    display: block;
+    width: 100%;
 }
 
 textarea{
@@ -138,8 +143,7 @@ textarea:focus {
 
 .textboxStyle {
     color: #F2F2F2;
-    /* background-color: rgba(255, 255, 255, 0.2); */
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(76, 76, 76, 0.7);   
 }
 
@@ -151,4 +155,659 @@ textarea:focus {
     outline: none !important;
     border-color: #6993bf !important;
     box-shadow: 0 0 1px #6995c3 !important;
+}
+
+/* #----| Responsive Design |----# */
+
+@media only screen and (max-width: 1070px) {
+    .textbox-Heading{
+        font-size: 22px;
+    }
+
+    .summary{
+        margin-top: 43px;
+        font-size: 20px;
+    }
+
+    .content{
+        font-size: 15px;
+    }
+
+    textarea{
+        width: 70em;
+        height: 17em;
+        font-size: 14px;
+    }
+
+    .Btn{
+        font-size: 14px;
+    }
+
+    .clrIcon{
+        font-size: 13px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 14px;
+        top: 2px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .textbox-Heading{
+        font-size: 22px;
+    }
+
+    .summary{
+        margin-top: 41px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 62em;
+        height: 15em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 14px;
+    }
+
+    .clrIcon{
+        font-size: 12px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 13px;
+        top: 2px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .textbox-Heading{
+        font-size: 22px;
+    }
+
+    .summary{
+        margin-top: 47px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 55em;
+        height: 15em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 14px;
+    }
+
+    .clrIcon{
+        font-size: 12px;
+        top: 1px;
+    }
+    
+    .clipIcon{
+        font-size: 13px;
+        top: 1px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 419px;
+        width: 155px;
+        margin-left: -318px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .textbox-Heading{
+        font-size: 22px;
+    }
+
+    .summary{
+        margin-top: 47px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 50em;
+        height: 15em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 14px;
+    }
+
+    .clrIcon{
+        font-size: 12px;
+        top: 1px;
+    }
+    
+    .clipIcon{
+        font-size: 13px;
+        top: 1px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 419px;
+        width: 155px;
+        margin-left: -318px;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .textbox-Heading{
+        font-size: 22px;
+    }
+
+    .summary{
+        margin-top: 68px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 45em;
+        height: 15em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 14px;
+    }
+
+    .clrIcon{
+        font-size: 12px;
+        top: 1px;
+    }
+    
+    .clipIcon{
+        font-size: 13px;
+        top: 1px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 419px;
+        width: 155px;
+        margin-left: -318px;
+    }
+
+    .resBtn{
+        position: absolute;
+        top: 419px;
+        margin-left: -154px;
+        width: 154px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .textbox-Heading{
+        font-size: 21px;
+    }
+
+    .summary{
+        margin-top: 68px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 42em;
+        height: 14em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 13px;
+    }
+
+    .clrIcon{
+        font-size: 12px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 13px;
+        top: 2px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 404px;
+        width: 147px;
+        margin-left: -300px;
+    }
+
+    .resBtn{
+        position: absolute;
+        top: 404px;
+        margin-left: -146px;
+        width: 146px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .textbox-Heading{
+        font-size: 20px; 
+    }
+
+    .summary{
+        margin-top: 68px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 40em;
+        height: 13em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 13px;
+    }
+
+    .clrIcon{
+        font-size: 12px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 13px;
+        top: 2px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 390px;
+        width: 147px;
+        margin-left: -300px;
+    }
+
+    .resBtn{
+        position: absolute;
+        top: 390px;
+        margin-left: -146px;
+        width: 146px;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .textbox-Heading{
+        font-size: 19px; 
+    }
+    
+    .summary{
+        margin-top: 68px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 38em;
+        height: 13em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 13px;
+    }
+
+    .clrIcon{
+        font-size: 11px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 12px;
+        top: 2px;
+    }
+
+    .volIcon{
+        font-size: 13px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 386px;
+        width: 147px;
+        margin-left: -300px;
+    }
+
+    .resBtn{
+        position: absolute;
+        top: 386px;
+        margin-left: -146px;
+        width: 146px;
+    }
+}
+
+@media only screen and (max-width: 515px) {
+    .textbox-Heading{
+        font-size: 18px; 
+    }
+    
+    .summary{
+        margin-top: 68px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 35em;
+        height: 13em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 13px;
+    }
+
+    .clrIcon{
+        font-size: 11px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 12px;
+        top: 2px;
+    }
+
+    .volIcon{
+        font-size: 13px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 386px;
+        width: 147px;
+        margin-left: -300px;
+    }
+
+    .resBtn{
+        position: absolute;
+        top: 386px;
+        margin-left: -146px;
+        width: 146px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .textbox-Heading{
+        font-size: 19px; 
+    }
+
+    .textbox-Heading1{
+        font-size: 18px; 
+        width: 90%;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-right: -100px;
+    }
+    
+    .summary{
+        margin-top: 68px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 32em;
+        height: 13em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 13px;
+    }
+
+    .clrIcon{
+        font-size: 11px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 12px;
+        top: 2px;
+    }
+
+    .volIcon{
+        font-size: 13px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 408px;
+        width: 147px;
+        margin-left: -300px;
+    }
+
+    .resBtn{
+        position: absolute;
+        top: 408px;
+        margin-left: -146px;
+        width: 146px;
+    }
+
+    .clrBtn{
+        position: absolute;
+        top: 378px;
+        margin-left: 30px;
+        width: 86px;
+    }
+
+    .volBtn{
+        position: absolute;
+        top: 413px;
+        margin-left: 75px;
+    }
+
+    .cpBtn{
+        position: absolute;
+        top: 413px;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .textbox-Heading{
+        font-size: 19px; 
+    }
+
+    .textbox-Heading1{
+        font-size: 18px; 
+        width: 99%;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-right: -100px;
+    }
+    
+    .summary{
+        margin-top: 68px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 30em;
+        height: 11em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 13px;
+    }
+
+    .clrIcon{
+        font-size: 11px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 12px;
+        top: 2px;
+    }
+
+    .volIcon{
+        font-size: 13px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 383px;
+        width: 147px;
+        margin-left: -300px;
+    }
+
+    .resBtn{
+        position: absolute;
+        top: 383px;
+        margin-left: -146px;
+        width: 146px;
+    }
+
+    .clrBtn{
+        position: absolute;
+        top: 352px;
+        margin-left: 8px;
+        width: 84px;
+    }
+
+    .volBtn{
+        position: absolute;
+        top: 388px;
+        margin-left: 52px;
+    }
+
+    .cpBtn{
+        position: absolute;
+        top: 388px;
+        margin-left: 8px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .textbox-Heading{
+        font-size: 19px; 
+    }
+
+    .textbox-Heading1{
+        font-size: 18px; 
+        width: 99%;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-right: -100px;
+    }
+    
+    .summary{
+        margin-top: 68px;
+        font-size: 19px;
+    }
+
+    .content{
+        font-size: 14px;
+    }
+
+    textarea{
+        width: 28em;
+        height: 11em;
+        font-size: 13px;
+    }
+
+    .Btn{
+        font-size: 12px;
+    }
+
+    .clrIcon{
+        font-size: 10px;
+        top: 2px;
+    }
+    
+    .clipIcon{
+        font-size: 11px;
+        top: 2px;
+    }
+
+    .volIcon{
+        font-size: 13px;
+        left: -2px;
+    }
+
+    .lBtn{
+        margin-left: 5px;
+    }
+
+    .tBtn{
+        position: absolute;
+        top: 383px;
+        width: 137px;
+        margin-left: -279px;
+    }
+
+    .resBtn{
+        position: absolute;
+        top: 383px;
+        margin-left: -137px;
+        width: 137px;
+    }
+
+    .clrBtn{
+        position: absolute;
+        top: 352px;
+        margin-left: 5px;
+        width: 80px;
+    }
+
+    .volBtn{
+        position: absolute;
+        top: 388px;
+        margin-left: 48px;
+        width: 37px;
+    }
+
+    .cpBtn{
+        position: absolute;
+        top: 388px;
+        margin-left: 5px;
+    }
 }

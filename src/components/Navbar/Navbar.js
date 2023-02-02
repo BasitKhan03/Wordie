@@ -4,7 +4,7 @@ import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
 
 function Navbar(props) {
-    let nav, link, btnDark, toggleBtn;
+    let nav, link, btnDark, toggleBtn, menuDark;
 
     if(props.mode === true)
     {
@@ -12,6 +12,7 @@ function Navbar(props) {
         link = 'linkStyle';
         btnDark = 'btnStyle';
         toggleBtn = 'toggleStyle';  
+        menuDark = 'menuStyle';
     }
     else
     {
@@ -19,6 +20,7 @@ function Navbar(props) {
         link = '';
         btnDark = '';
         toggleBtn = '';
+        menuDark = '';
     }
 
     const handleHome = ()=>{
@@ -39,19 +41,21 @@ function Navbar(props) {
                 </div>
 
                 <ul className="nav-links">
-                    <div className="menu">
+                    <input type="checkbox" id="checkbox_toggle" />
+                    <label htmlFor="checkbox_toggle" className="hamburger">&#9776;</label>
+                    <div className={`menu ${menuDark}`}>
                         <li><NavLink activeClassName="active" className={link} to="/" onClick={handleHome}>{props.link1}</NavLink></li>
                         <li><Link className={link}>{props.link2}</Link></li>
                         <li><NavLink activeClassName="active" className={link} to="/about" onClick={handleAbout}>{props.link3}</NavLink></li>
                         <li><Link className={link}>{props.link4}</Link></li>
-                        <li><NavLink className="cta"><button className={`headerBtn ${btnDark}`}>{props.btn}</button></NavLink></li>
+                        <li><Link className="cta"><button className={`headerBtn ${btnDark}`}>{props.btn}</button></Link></li>
 
                         {/* <li><a className={`active ${link}`} href="#">{props.link1}</a></li>
                         <li><a className={link} href="#">{props.link2}</a></li>
                         <li><a className={link} href="#">{props.link3}</a></li>
                         <li><a className={link} href="#">{props.link4}</a></li>
                         <li><a className="cta" href="#"><button className={`headerBtn ${btnDark}`}>{props.btn}</button></a></li> */}
-                        <li>
+                        <li className='mode'>
                             <input type="checkbox" className="checkbox" id="checkbox" onClick={props.toggleMode}/>
                             <label htmlFor="checkbox" className={`label ${toggleBtn}`}>
                                 <i className="fas fa-moon"></i>

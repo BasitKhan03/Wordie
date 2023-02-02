@@ -58,7 +58,7 @@ function App() {
         {/* <Textbox heading='Enter the text to analyze below' mode={darkMode} alert={showAlert} /> */}
         <Routes>
           <Route exact path="/about" element={<About mode={darkMode} />} />
-          <Route exact path="/" element={<Textbox heading='Enter the text to analyze below' mode={darkMode} alert={showAlert} />} />
+          <Route exact path="/" element={<Textbox heading='Try Wordie - word counter, character counter, text analyzer' mode={darkMode} alert={showAlert} />} />
         </Routes>
       </Router>
     </>
