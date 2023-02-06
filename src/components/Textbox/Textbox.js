@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaVolumeUp, FaVolumeMute, FaTrash, FaClipboard } from 'react-icons/fa';
 import './Textbox.css';
 
@@ -131,7 +131,7 @@ export default function Textbox(props) {
           <button disabled={text.length === 0} className={`Btn resBtn ${btnStyle1}`} onClick={handleExtraSpaces}>Remove Extra Spaces</button>
           <button disabled={text.length === 0} className={`Btn clrBtn ${btnStyle2}`} onClick={handleClearText}><FaTrash className='clrIcon icon' /></button>
           <button disabled={text.length === 0} className={`Btn cpBtn ${btnStyle1}`} onClick={handleCopyText}><FaClipboard className='clipIcon icon' /></button>
-          <button disabled={text.length === 0} className={`Btn volBtn ${btnStyle1}`} onClick={handleSpeak}>{isActive ? <FaVolumeUp className='volIcon icon' /> : <FaVolumeMute className='icon' />}</button>
+          <button disabled={text.length === 0} className={`Btn volBtn ${btnStyle1}`} onClick={handleSpeak}>{isActive ? <FaVolumeUp className='volIcon icon' /> : <FaVolumeMute className='volIcon volIcon1 icon' />}</button>
         </div>
       </div>
 

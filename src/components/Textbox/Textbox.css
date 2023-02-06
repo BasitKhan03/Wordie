@@ -75,7 +75,7 @@ textarea:focus {
 
 .clrBtn {
     float: right;
-    background-color: #a82009;
+    background-color: #c0250a;
     margin-top: 10px;
 }
 
@@ -223,7 +223,7 @@ textarea:focus {
 
     .clrIcon {
         font-size: 12px;
-        top: 2px;
+        top: 1px;
     }
 
     .clipIcon {
@@ -723,11 +723,11 @@ textarea:focus {
 
 @media only screen and (max-width: 425px) {
     .textbox-Heading1 {
-        font-size: 18px;
-        width: 99%;
+        font-size: 19px;
+        width: 97%;
         line-height: 1.2;
         margin-bottom: 10px;
-        margin-right: -100px;
+        margin-right: -125px;
     }
 
     .summary {
@@ -761,6 +761,11 @@ textarea:focus {
 
     .volIcon {
         font-size: 13px;
+        left: -2px;
+    }
+
+    .volIcon1 {
+        position: relative;
         left: -2px;
     }
 
@@ -805,11 +810,11 @@ textarea:focus {
 
 @media only screen and (max-width: 390px) {
     .textbox-Heading1 {
-        font-size: 18px;
+        font-size: 19px;
         width: 90%;
         line-height: 1.2;
         margin-bottom: 10px;
-        margin-right: -123px;
+        margin-right: -160px;
     }
 
     .summary {
@@ -847,6 +852,11 @@ textarea:focus {
         left: -2px;
     }
 
+    .volIcon1 {
+        position: relative;
+        left: -2px;
+    }
+
     .tBtn {
         position: absolute;
         top: 383px;
@@ -877,7 +887,7 @@ textarea:focus {
 
     .cpBtn {
         position: absolute;
-        top: 199px;
+        top: 202px;
         margin-left: 24px;
         width: 28px;
         border-radius: 2px;
@@ -896,7 +906,7 @@ textarea:focus {
 
 @media only screen and (max-width: 360px) {
     .textbox-Heading1 {
-        font-size: 18px;
+        font-size: 19px;
         width: 90%;
         line-height: 1.2;
         margin-bottom: 10px;
@@ -939,6 +949,11 @@ textarea:focus {
         left: -5px;
     }
 
+    .volIcon1 {
+        position: relative;
+        left: -5px;
+    }
+
     .tBtn {
         position: absolute;
         top: 383px;
@@ -969,7 +984,7 @@ textarea:focus {
 
     .cpBtn {
         position: absolute;
-        top: 199px;
+        top: 202px;
         margin-left: -2px;
         width: 28px;
         border-radius: 2px;
