@@ -139,7 +139,7 @@ export default function Textbox(props) {
         <div className={`box ${txtStyle}`}>
           <h2 className='textbox-Heading summary'>Your Text Summary</h2>
           <div className="content">
-            <p>- {text.split(" ").filter((word) => { return word.length !== 0 }).length} words & {text.length} characters</p>
+            <p>- {text.split(/\s+/).filter((word) => { return word.length !== 0 }).length} words & {text.length} characters</p>
             <p>- {0.008 * (text.split(" ").filter((word) => { return word.length !== 0 }).length)} minutes to read</p>
           </div>
         </div>
