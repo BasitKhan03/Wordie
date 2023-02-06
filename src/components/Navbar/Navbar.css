@@ -236,11 +236,11 @@ input[type=checkbox]:checked~.menuStyle {
         position: relative;
         top: 0px;
         left: -29px;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .menu li a {
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .menu li:hover,
@@ -263,6 +263,61 @@ input[type=checkbox]:checked~.menuStyle {
     }
 
     .label {
-        margin: auto;
+        margin: 0px auto;
+        position: relative;
+        top: 28px;
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .logoHeading {
+        font-size: 27px;
+    }
+
+    .menu li a {
+        font-size: 16px;
+    }
+
+    .headerBtn {
+        font-size: 14px;
+    }
+
+    .menu {
+        gap: 0.30em;
+    }
+
+    .mode {
+        margin-right: 20px;
+    }
+
+    .hamburger {
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .logoHeading {
+        font-size: 26px;
+    }
+
+    .menu li a {
+        font-size: 16px;
+    }
+
+    .headerBtn {
+        font-size: 14px;
+    }
+
+    .menu {
+        gap: 0.30em;
+    }
+
+    .mode {
+        margin-right: 20px;
+    }
+
+    .hamburger {
+        font-size: 20px;
     }
 }

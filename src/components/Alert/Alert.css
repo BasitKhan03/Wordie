@@ -142,3 +142,29 @@
     top: 2px;
     margin-right: 4px;
 }
+
+/* #----| Responsive Design |----# */
+
+@media only screen and (max-width: 615px) {
+    .alert {
+        font-size: 13px;
+        padding-top: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .alert {
+        font-size: 12px;
+        padding: 0.6rem 2.2rem;
+        padding-top: 0.6rem;
+    }
+
+    .alertIcon {
+        font-size: 13px;
+        position: relative;
+        top: 2px;
+        margin-right: 4px;
+    }
+}
+
+

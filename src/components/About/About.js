@@ -63,7 +63,7 @@ export default function About(props) {
       </div>
 
       <div className={styles.row2}>
-        <button className={`${styles.Btn} ${props.mode ? styles.btnDarkMode : null}`}>{props.mode ? 'Light Mode' : 'Dark Mode'}</button>
+        <button className={`${styles.Btn} ${props.mode ? styles.btnDarkMode : null}`}>Connect</button>
       </div>
     </section>
   )

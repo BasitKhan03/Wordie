@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.textbox{
+.textbox {
     margin-top: 40px;
 }
 
-.container{
+.container {
     width: 100%;
     display: flex;
 }
 
-.box{
+.box {
     margin: auto;
 }
 
-.textbox-Heading{
+.textbox-Heading {
     font-family: 'El Messiri', sans-serif;
     font-weight: 500;
     font-size: 25px;
 }
 
-.headingDiv{
+.headingDiv {
     display: block;
     width: 100%;
 }
 
-textarea{
+textarea {
     resize: none;
     outline: none;
     border: 1px solid rgba(132, 132, 132, 0.7);
@@ -42,13 +42,13 @@ textarea{
     margin-top: 8px;
 }
 
-textarea:focus { 
+textarea:focus {
     outline: none !important;
     border-color: #719ECE;
     box-shadow: 0 0 4px #719ECE;
 }
 
-.Btn{
+.Btn {
     font-family: 'Mukta Mahee', sans-serif;
     font-size: 15px;
     font-weight: 500;
@@ -62,56 +62,59 @@ textarea:focus {
     margin-top: 15px;
 }
 
-.Btn:hover{
+.Btn:hover {
     background-color: rgb(75, 78, 198);
     box-shadow: 0 0 4px rgb(83, 85, 227);
 }
 
-.lBtn, .resBtn, .tBtn{
+.lBtn,
+.resBtn,
+.tBtn {
     margin-left: 8px;
 }
 
-.clrBtn{
+.clrBtn {
     float: right;
     background-color: #a82009;
     margin-top: 10px;
 }
 
-.clrBtn:hover{
+.clrBtn:hover {
     background-color: #961d08;
     box-shadow: none;
 }
 
-.volBtn{
+.volBtn {
     float: right;
     margin: 10px;
 }
 
-.cpBtn{
+.cpBtn {
     float: right;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.volBtn:hover,.cpBtn:hover{
+.volBtn:hover,
+.cpBtn:hover {
     box-shadow: none;
 }
 
-.icon{
+.icon {
     position: relative;
     top: 3px;
 }
 
-.clrIcon{
+.clrIcon {
     font-size: 14px;
     top: 2px;
 }
 
-.clipIcon{
+.clipIcon {
     font-size: 15px;
 }
 
-.summary{
+.summary {
     margin-top: 45px;
     text-decoration: underline;
     font-size: 22px;
@@ -144,14 +147,14 @@ textarea:focus {
 .textboxStyle {
     color: #F2F2F2;
     background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid rgba(76, 76, 76, 0.7);   
+    border: 1px solid rgba(76, 76, 76, 0.7);
 }
 
 .textboxStyle::placeholder {
     color: #d0d0d0 !important;
 }
 
-.textboxStyle:focus { 
+.textboxStyle:focus {
     outline: none !important;
     border-color: #6993bf !important;
     box-shadow: 0 0 1px #6995c3 !important;
@@ -160,110 +163,110 @@ textarea:focus {
 /* #----| Responsive Design |----# */
 
 @media only screen and (max-width: 1070px) {
-    .textbox-Heading{
+    .textbox-Heading {
         font-size: 22px;
     }
 
-    .summary{
+    .summary {
         margin-top: 43px;
         font-size: 20px;
     }
 
-    .content{
+    .content {
         font-size: 15px;
     }
 
-    textarea{
+    textarea {
         width: 70em;
         height: 17em;
         font-size: 14px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 14px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 13px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 14px;
         top: 2px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .textbox-Heading{
+    .textbox-Heading {
         font-size: 22px;
     }
 
-    .summary{
+    .summary {
         margin-top: 41px;
         font-size: 19px;
     }
 
-    .content{
+    .content {
         font-size: 14px;
     }
 
-    textarea{
+    textarea {
         width: 62em;
         height: 15em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 14px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 12px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 13px;
         top: 2px;
     }
 }
 
 @media only screen and (max-width: 830px) {
-    .textbox-Heading{
+    .textbox-Heading {
         font-size: 22px;
     }
 
-    .summary{
+    .summary {
         margin-top: 47px;
         font-size: 19px;
     }
 
-    .content{
+    .content {
         font-size: 14px;
     }
 
-    textarea{
+    textarea {
         width: 55em;
         height: 15em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 14px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 12px;
         top: 1px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 13px;
         top: 1px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 419px;
         width: 155px;
@@ -272,40 +275,40 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 750px) {
-    .textbox-Heading{
+    .textbox-Heading {
         font-size: 22px;
     }
 
-    .summary{
+    .summary {
         margin-top: 47px;
         font-size: 19px;
     }
 
-    .content{
+    .content {
         font-size: 14px;
     }
 
-    textarea{
+    textarea {
         width: 50em;
         height: 15em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 14px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 12px;
         top: 1px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 13px;
         top: 1px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 419px;
         width: 155px;
@@ -314,47 +317,47 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 685px) {
-    .textbox-Heading{
+    .textbox-Heading {
         font-size: 22px;
     }
 
-    .summary{
+    .summary {
         margin-top: 68px;
         font-size: 19px;
     }
 
-    .content{
+    .content {
         font-size: 14px;
     }
 
-    textarea{
+    textarea {
         width: 45em;
         height: 15em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 14px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 12px;
         top: 1px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 13px;
         top: 1px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 419px;
         width: 155px;
         margin-left: -318px;
     }
 
-    .resBtn{
+    .resBtn {
         position: absolute;
         top: 419px;
         margin-left: -154px;
@@ -363,47 +366,47 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 615px) {
-    .textbox-Heading{
+    .textbox-Heading {
         font-size: 21px;
     }
 
-    .summary{
+    .summary {
         margin-top: 68px;
         font-size: 19px;
     }
 
-    .content{
+    .content {
         font-size: 14px;
     }
 
-    textarea{
+    textarea {
         width: 42em;
         height: 14em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 13px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 12px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 13px;
         top: 2px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 404px;
         width: 147px;
         margin-left: -300px;
     }
 
-    .resBtn{
+    .resBtn {
         position: absolute;
         top: 404px;
         margin-left: -146px;
@@ -412,47 +415,47 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 580px) {
-    .textbox-Heading{
-        font-size: 20px; 
+    .textbox-Heading {
+        font-size: 20px;
     }
 
-    .summary{
+    .summary {
         margin-top: 68px;
         font-size: 19px;
     }
 
-    .content{
+    .content {
         font-size: 14px;
     }
 
-    textarea{
+    textarea {
         width: 40em;
         height: 13em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 13px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 12px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 13px;
         top: 2px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 390px;
         width: 147px;
         margin-left: -300px;
     }
 
-    .resBtn{
+    .resBtn {
         position: absolute;
         top: 390px;
         margin-left: -146px;
@@ -461,51 +464,51 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 555px) {
-    .textbox-Heading{
-        font-size: 19px; 
+    .textbox-Heading {
+        font-size: 19px;
     }
-    
-    .summary{
+
+    .summary {
         margin-top: 68px;
         font-size: 19px;
     }
 
-    .content{
+    .content {
         font-size: 14px;
     }
 
-    textarea{
+    textarea {
         width: 38em;
         height: 13em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 13px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 11px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 12px;
         top: 2px;
     }
 
-    .volIcon{
+    .volIcon {
         font-size: 13px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 386px;
         width: 147px;
         margin-left: -300px;
     }
 
-    .resBtn{
+    .resBtn {
         position: absolute;
         top: 386px;
         margin-left: -146px;
@@ -514,51 +517,51 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 515px) {
-    .textbox-Heading{
-        font-size: 18px; 
+    .textbox-Heading {
+        font-size: 18px;
     }
-    
-    .summary{
+
+    .summary {
         margin-top: 68px;
         font-size: 19px;
     }
 
-    .content{
+    .content {
         font-size: 14px;
     }
 
-    textarea{
+    textarea {
         width: 35em;
         height: 13em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 13px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 11px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 12px;
         top: 2px;
     }
 
-    .volIcon{
+    .volIcon {
         font-size: 13px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 386px;
         width: 147px;
         margin-left: -300px;
     }
 
-    .resBtn{
+    .resBtn {
         position: absolute;
         top: 386px;
         margin-left: -146px;
@@ -567,79 +570,75 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 480px) {
-    .textbox-Heading{
-        font-size: 19px; 
-    }
-
-    .textbox-Heading1{
-        font-size: 18px; 
+    .textbox-Heading1 {
+        font-size: 18px;
         width: 90%;
         line-height: 1.2;
         margin-bottom: 10px;
         margin-right: -100px;
     }
-    
-    .summary{
+
+    .summary {
         margin-top: 68px;
-        font-size: 19px;
+        font-size: 17px;
     }
 
-    .content{
-        font-size: 14px;
+    .content {
+        font-size: 13px;
     }
 
-    textarea{
+    textarea {
         width: 32em;
         height: 13em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 13px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 11px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 12px;
         top: 2px;
     }
 
-    .volIcon{
+    .volIcon {
         font-size: 13px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 408px;
         width: 147px;
         margin-left: -300px;
     }
 
-    .resBtn{
+    .resBtn {
         position: absolute;
         top: 408px;
         margin-left: -146px;
         width: 146px;
     }
 
-    .clrBtn{
+    .clrBtn {
         position: absolute;
         top: 378px;
         margin-left: 30px;
         width: 86px;
     }
 
-    .volBtn{
+    .volBtn {
         position: absolute;
         top: 413px;
         margin-left: 75px;
     }
 
-    .cpBtn{
+    .cpBtn {
         position: absolute;
         top: 413px;
         margin-left: 30px;
@@ -647,79 +646,75 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 450px) {
-    .textbox-Heading{
-        font-size: 19px; 
-    }
-
-    .textbox-Heading1{
-        font-size: 18px; 
+    .textbox-Heading1 {
+        font-size: 18px;
         width: 99%;
         line-height: 1.2;
         margin-bottom: 10px;
         margin-right: -100px;
     }
-    
-    .summary{
+
+    .summary {
         margin-top: 68px;
-        font-size: 19px;
+        font-size: 17px;
     }
 
-    .content{
-        font-size: 14px;
+    .content {
+        font-size: 13px;
     }
 
-    textarea{
+    textarea {
         width: 30em;
         height: 11em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 13px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 11px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 12px;
         top: 2px;
     }
 
-    .volIcon{
+    .volIcon {
         font-size: 13px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 383px;
         width: 147px;
         margin-left: -300px;
     }
 
-    .resBtn{
+    .resBtn {
         position: absolute;
         top: 383px;
         margin-left: -146px;
         width: 146px;
     }
 
-    .clrBtn{
+    .clrBtn {
         position: absolute;
         top: 352px;
         margin-left: 8px;
         width: 84px;
     }
 
-    .volBtn{
+    .volBtn {
         position: absolute;
         top: 388px;
         margin-left: 52px;
     }
 
-    .cpBtn{
+    .cpBtn {
         position: absolute;
         top: 388px;
         margin-left: 8px;
@@ -727,87 +722,266 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 425px) {
-    .textbox-Heading{
-        font-size: 19px; 
-    }
-
-    .textbox-Heading1{
-        font-size: 18px; 
+    .textbox-Heading1 {
+        font-size: 18px;
         width: 99%;
         line-height: 1.2;
         margin-bottom: 10px;
         margin-right: -100px;
     }
-    
-    .summary{
+
+    .summary {
         margin-top: 68px;
-        font-size: 19px;
+        font-size: 17px;
     }
 
-    .content{
-        font-size: 14px;
+    .content {
+        font-size: 13px;
     }
 
-    textarea{
+    textarea {
         width: 28em;
         height: 11em;
         font-size: 13px;
     }
 
-    .Btn{
+    .Btn {
         font-size: 12px;
     }
 
-    .clrIcon{
+    .clrIcon {
         font-size: 10px;
         top: 2px;
     }
-    
-    .clipIcon{
+
+    .clipIcon {
         font-size: 11px;
         top: 2px;
     }
 
-    .volIcon{
+    .volIcon {
         font-size: 13px;
         left: -2px;
     }
 
-    .lBtn{
+    .lBtn {
         margin-left: 5px;
     }
 
-    .tBtn{
+    .tBtn {
         position: absolute;
         top: 383px;
         width: 137px;
         margin-left: -279px;
     }
 
-    .resBtn{
+    .resBtn {
         position: absolute;
         top: 383px;
         margin-left: -137px;
         width: 137px;
     }
 
-    .clrBtn{
+    .clrBtn {
         position: absolute;
         top: 352px;
         margin-left: 5px;
         width: 80px;
     }
 
-    .volBtn{
+    .volBtn {
         position: absolute;
         top: 388px;
         margin-left: 48px;
         width: 37px;
     }
 
-    .cpBtn{
+    .cpBtn {
         position: absolute;
         top: 388px;
         margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .textbox-Heading1 {
+        font-size: 18px;
+        width: 90%;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-right: -123px;
+    }
+
+    .summary {
+        margin-top: 78px;
+        font-size: 17px;
+    }
+
+    .content {
+        font-size: 13px;
+    }
+
+    textarea {
+        width: 26em;
+        height: 11em;
+        font-size: 13px;
+    }
+
+    .Btn {
+        font-size: 12px;
+    }
+
+    .clrIcon {
+        font-size: 10px;
+        top: 2px;
+    }
+
+    .clipIcon {
+        font-size: 11px;
+        top: 1px;
+        left: -6px;
+    }
+
+    .volIcon {
+        font-size: 13px;
+        left: -2px;
+    }
+
+    .tBtn {
+        position: absolute;
+        top: 383px;
+        width: 137px;
+        margin-left: -279px;
+    }
+
+    .resBtn {
+        position: absolute;
+        top: 383px;
+        margin-left: -137px;
+        width: 137px;
+    }
+
+    .clrBtn {
+        position: absolute;
+        top: 352px;
+        margin-left: 21px;
+        width: 37px;
+    }
+
+    .volBtn {
+        position: absolute;
+        top: 388px;
+        margin-left: 21px;
+        width: 37px;
+    }
+
+    .cpBtn {
+        position: absolute;
+        top: 199px;
+        margin-left: 24px;
+        width: 28px;
+        border-radius: 2px;
+        background-color: rgba(154, 154, 154, 0.5);
+    }
+
+    .cpBtn:hover {
+        background-color: gba(154, 154, 154, 0.7);
+        box-shadow: 0 0 4px rgba(132, 132, 132, 0.7);
+    }
+
+    textarea {
+        padding-right: 40px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .textbox-Heading1 {
+        font-size: 18px;
+        width: 90%;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        margin-right: -200px;
+    }
+
+    .summary {
+        margin-top: 78px;
+        font-size: 17px;
+    }
+
+    .content {
+        font-size: 13px;
+    }
+
+    textarea {
+        width: 24em;
+        height: 11em;
+        font-size: 13px;
+    }
+
+    .Btn {
+        font-size: 12px;
+    }
+
+    .clrIcon {
+        font-size: 10px;
+        top: 2px;
+        left: -4px;
+    }
+
+    .clipIcon {
+        font-size: 11px;
+        top: 1px;
+        left: -6px;
+    }
+
+    .volIcon {
+        font-size: 12px;
+        left: -5px;
+    }
+
+    .tBtn {
+        position: absolute;
+        top: 383px;
+        width: 137px;
+        margin-left: -279px;
+    }
+
+    .resBtn {
+        position: absolute;
+        top: 383px;
+        margin-left: -137px;
+        width: 137px;
+    }
+
+    .clrBtn {
+        position: absolute;
+        top: 352px;
+        margin-left: 5px;
+        width: 30px;
+    }
+
+    .volBtn {
+        position: absolute;
+        top: 388px;
+        margin-left: 5px;
+        width: 30px;
+    }
+
+    .cpBtn {
+        position: absolute;
+        top: 199px;
+        margin-left: -2px;
+        width: 28px;
+        border-radius: 2px;
+        background-color: rgba(154, 154, 154, 0.5);
+    }
+
+    .cpBtn:hover {
+        background-color: gba(154, 154, 154, 0.7);
+        box-shadow: 0 0 4px rgba(132, 132, 132, 0.7);
+    }
+
+    textarea {
+        padding-right: 40px;
     }
 }
