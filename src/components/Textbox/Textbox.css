@@ -120,6 +120,11 @@ textarea:focus {
     font-size: 22px;
 }
 
+.content {
+    position: relative;
+    top: 5px;
+}
+
 /* #----| Dark Mode |----# */
 
 .textStyle {
@@ -371,7 +376,7 @@ textarea:focus {
     }
 
     .summary {
-        margin-top: 68px;
+        margin-top: 72px;
         font-size: 19px;
     }
 
@@ -579,7 +584,7 @@ textarea:focus {
     }
 
     .summary {
-        margin-top: 68px;
+        margin-top: 70px;
         font-size: 17px;
     }
 
@@ -655,7 +660,7 @@ textarea:focus {
     }
 
     .summary {
-        margin-top: 68px;
+        margin-top: 70px;
         font-size: 17px;
     }
 
@@ -731,7 +736,7 @@ textarea:focus {
     }
 
     .summary {
-        margin-top: 68px;
+        margin-top: 70px;
         font-size: 17px;
     }
 
@@ -934,7 +939,7 @@ textarea:focus {
 
     .clrIcon {
         font-size: 10px;
-        top: 2px;
+        top: 1px;
         left: -4px;
     }
 
@@ -970,7 +975,7 @@ textarea:focus {
 
     .clrBtn {
         position: absolute;
-        top: 352px;
+        top: 354px;
         margin-left: 5px;
         width: 30px;
     }
