@@ -28,9 +28,9 @@ function App() {
   const toggle = () => {
     if (darkMode === false) {
       setDarkMode(true);
+      document.body.style.backgroundColor = '#202020';
       // document.body.style.backgroundColor = '#121212';    
       // document.body.style.backgroundColor = '#171717';
-      document.body.style.backgroundColor = '#202020';
       document.body.style.transition = 'all 0.2s linear';
       showAlert("Dark mode has been enabled!", "success");
       // document.title = 'Home (Dark) | Wordie';
