@@ -26,6 +26,7 @@ p {
     font-size: 29px;
     line-height: 56px;
     padding-top: 35px;
+    text-decoration: underline;
 }
 
 .subText {
